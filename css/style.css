@@ -132,9 +132,9 @@ body{
 
 .about{
 
-padding:120px 10%;
+padding:180px 10%;
 
-background:#f8fafc;
+background:white;
 
 }
 
@@ -170,9 +170,9 @@ color:#1e293b;
 
 font-size:22px;
 
-line-height:1.8;
+line-height:2;
 
-max-width:850px;
+max-width:780px;
 
 color:#475569;
 
