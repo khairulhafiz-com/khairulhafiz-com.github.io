@@ -407,13 +407,19 @@ ul{
    PORTRAIT
 ========================================================== */
 
-.hero-image{
+.hero-photo{
 
     width:100%;
 
-    border-radius:25px;
+    max-width:480px;
 
-    box-shadow:var(--shadow);
+    border-radius:24px;
+
+    display:block;
+
+    margin:auto;
+
+    box-shadow:0 30px 80px rgba(0,0,0,.15);
 
 }
 
