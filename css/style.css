@@ -186,57 +186,89 @@ body{
 
 }
 
-/* ===================================
+/* ==========================
    ABOUT
-=================================== */
+========================== */
 
 .about{
 
     padding:120px 10%;
 
-}
-
-.container{
-
-    max-width:900px;
+    background:#ffffff;
 
 }
 
-.section-label{
+.about-grid{
 
-    color:#2563eb;
+    display:grid;
 
-    font-size:16px;
+    grid-template-columns:1.2fr 0.8fr;
 
-    font-weight:700;
+    gap:80px;
 
-    letter-spacing:2px;
-
-    margin-bottom:20px;
+    align-items:start;
 
 }
 
-.about h2{
+.about-left h2{
 
-    font-size:58px;
+    font-size:56px;
 
-    line-height:1.15;
+    line-height:1.1;
 
-    margin-bottom:40px;
+    margin:20px 0 30px;
 
     color:#1e293b;
 
 }
 
-.about p{
+.about-intro{
 
     font-size:24px;
 
+    line-height:1.8;
+
     color:#475569;
 
-    line-height:1.9;
+}
 
-    margin-bottom:30px;
+.about-right{
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:20px;
+
+    padding-top:90px;
+
+}
+
+.about-item{
+
+    background:#f8fafc;
+
+    padding:24px;
+
+    border-radius:12px;
+
+    border:1px solid #e2e8f0;
+
+    font-size:20px;
+
+    font-weight:600;
+
+    color:#1e293b;
+
+    transition:0.3s;
+
+}
+
+.about-item:hover{
+
+    transform:translateX(8px);
+
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
 
 }
 
