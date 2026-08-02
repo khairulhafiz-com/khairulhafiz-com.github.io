@@ -210,6 +210,76 @@ document.addEventListener("contextmenu", function(e){
 
 });
 
+/* ==========================================
+   CONTENT PROTECTION
+========================================== */
+
+document.addEventListener("copy", function(e){
+    e.preventDefault();
+});
+
+document.addEventListener("cut", function(e){
+    e.preventDefault();
+});
+
+document.addEventListener("paste", function(e){
+    e.preventDefault();
+});
+
+document.addEventListener("keydown", function(e){
+
+    // Ctrl/Cmd + C
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "c") {
+        e.preventDefault();
+    }
+
+    // Ctrl/Cmd + X
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "x") {
+        e.preventDefault();
+    }
+
+    // Ctrl/Cmd + A
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "a") {
+        e.preventDefault();
+    }
+
+    // Ctrl/Cmd + S
+    if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === "s") {
+        e.preventDefault();
+    }
+
+});
+
+document.addEventListener("keydown", function(e){
+
+    if(e.key==="F12"){
+
+        e.preventDefault();
+
+    }
+
+    if(e.ctrlKey && e.shiftKey && e.key==="I"){
+
+        e.preventDefault();
+
+    }
+
+    if(e.ctrlKey && e.shiftKey && e.key==="J"){
+
+        e.preventDefault();
+
+    }
+
+    if(e.ctrlKey && e.key==="U"){
+
+        e.preventDefault();
+
+    }
+
+});
+
+
+
 /* ==========================================================
    END
 ========================================================== */
