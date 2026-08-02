@@ -412,7 +412,7 @@ ul{
      -webkit-user-drag:none;
 
     user-select:none;
-    
+
     width:100%;
 
     max-width:480px;
@@ -1518,5 +1518,22 @@ display:none;
 .scroll-top:hover{
 
     background:var(--primary-dark);
+
+}
+
+/* ==========================================
+   CONTENT PROTECTION
+========================================== */
+
+body{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+img{
+
+    -webkit-touch-callout:none;
 
 }
