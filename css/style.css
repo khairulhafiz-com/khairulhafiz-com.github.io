@@ -409,6 +409,10 @@ ul{
 
 .hero-photo{
 
+     -webkit-user-drag:none;
+
+    user-select:none;
+    
     width:100%;
 
     max-width:480px;
