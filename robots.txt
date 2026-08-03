@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://khairulhafiz-com.github.io/sitemap.xml
