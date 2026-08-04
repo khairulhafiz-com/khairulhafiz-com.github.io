@@ -278,7 +278,7 @@ document.addEventListener("keydown", function(e){
 
 });
 
-
+document.addEventListener("contextmenu", e => e.preventDefault());
 
 /* ==========================================================
    END
