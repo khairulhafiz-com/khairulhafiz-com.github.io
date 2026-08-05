@@ -1596,7 +1596,8 @@ img{
 @media (max-width:768px){
 
 .hero{
-    padding-top:110px;
+    padding-top:80px;
+    padding- bottom:700px;
 }
 
 section{
@@ -1614,5 +1615,11 @@ section{
 .contact-grid{
     margin-top:35px;
 }
+
+.hero h1{
+
+font-size:3rem;
+
+line-height:1.08;
 
 }
